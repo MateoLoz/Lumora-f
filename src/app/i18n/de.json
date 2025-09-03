@@ -1,0 +1,52 @@
+{
+  "homePage": {
+    "title": "Hallo Panchuque"
+  },
+  "loginPage": {
+    "loginForm": {
+      "loginTitle": "Willkommen zurück",
+      "loginSubTitle": "Geben Sie Ihre Anmeldedaten ein, um sich anzumelden",
+      "emailLabel": "E-Mail",
+      "passwordLabel": "Passwort",
+      "signInButton": "Anmelden",
+      "continueWithText": "ODER FORTFAHREN MIT",
+      "SignInWithGoogleButton": "Mit Google fortfahren",
+      "createAccountAnchor": "Noch kein Konto? Registrieren",
+      "loadingLogin":"Wird angemeldet..."
+    },
+    "loginErrors":{
+      "emailRequired":"El email es requerido",
+      "emailIsInvalid":"El email ingresado es invalido",
+      "emailIsToLong":"El email no debe superar los 80 caracteres",
+      "passwordIsShort":"La Contraseña ingresada es demasiado corta",
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+    }
+  },
+  "registerPage": {
+    "registerForm": {
+      "registerTitle": "Willkommen",
+      "registerSubTitle": "Geben Sie Ihre Anmeldedaten ein, um sich zu registrieren",
+      "emailLabel": "E-Mail",
+      "passwordLabel": "Passwort",
+      "signUpButton": "Registrieren",
+      "logInAnchor": "Schon ein Konto? Anmelden",
+      "loadingRegister":"Registrierung wird durchgeführt..."
+    },
+    
+  "registerErrors": {
+    "firstNameIsRequired": "Der Vorname ist erforderlich",
+    "firstNameIsShort": "Der Vorname muss mindestens 5 Zeichen enthalten",
+    "firstNameToLong": "Der Vorname darf maximal 45 Zeichen enthalten",
+    "lastNameIsRequired": "Der Nachname ist erforderlich",
+    "lastNameIsShort": "Der Nachname muss mindestens 5 Zeichen enthalten",
+    "lastNameToLong": "Der Nachname darf maximal 45 Zeichen enthalten",
+    "emailRequired": "Die E-Mail ist erforderlich",
+    "emailIsInvalid": "Die eingegebene E-Mail ist ungültig",
+    "emailIsToLong": "Die E-Mail darf nicht länger als 80 Zeichen sein",
+    "passwordRequired": "Das Passwort ist erforderlich",
+    "passwordIsShort": "Das eingegebene Passwort ist zu kurz",
+    "passwordIsToLong": "Das Passwort darf nicht länger als 50 Zeichen sein",
+    "passwordFormat": "Das Passwort muss mindestens 8 Zeichen, Großbuchstaben, Kleinbuchstaben, Zahl und ein Sonderzeichen enthalten [#$%&_-*+@]"
+  }
+  }
+}

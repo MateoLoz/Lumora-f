@@ -1,0 +1,51 @@
+{
+  "homePage": {
+    "title": "Ciao Panchuque"
+  },
+  "loginPage": {
+    "loginForm": {
+      "loginTitle": "Bentornato",
+      "loginSubTitle": "Inserisci le tue credenziali per accedere",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "signInButton": "Accedi",
+      "continueWithText": "OPPURE CONTINUA CON",
+      "SignInWithGoogleButton": "Continua con Google",
+      "createAccountAnchor": "Non hai un account? Registrati",
+      "loadingLogin":"Accesso in corso..."
+    },
+     "loginErrors":{
+      "emailRequired":"El email es requerido",
+      "emailIsInvalid":"El email ingresado es invalido",
+      "emailIsToLong":"El email no debe superar los 80 caracteres",
+      "passwordIsShort":"La Contraseña ingresada es demasiado corta",
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+    }
+  },
+  "registerPage": {
+    "registerForm": {
+      "registerTitle": "Benvenuto",
+      "registerSubTitle": "Inserisci le tue credenziali per registrarti",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "signUpButton": "Registrati",
+      "logInAnchor": "Hai già un account? Accedi",
+      "loadingRegister":"Registrazione in corso..."
+    },
+    "registerErrors": {
+    "firstNameIsRequired": "Il nome è obbligatorio",
+    "firstNameIsShort": "Il nome deve contenere almeno 5 caratteri",
+    "firstNameToLong": "Il nome non deve superare i 45 caratteri",
+    "lastNameIsRequired": "Il cognome è obbligatorio",
+    "lastNameIsShort": "Il cognome deve contenere almeno 5 caratteri",
+    "lastNameToLong": "Il cognome non deve superare i 45 caratteri",
+    "emailRequired": "L'email è obbligatoria",
+    "emailIsInvalid": "L'email inserita non è valida",
+    "emailIsToLong": "L'email non deve superare gli 80 caratteri",
+    "passwordRequired": "La password è obbligatoria",
+    "passwordIsShort": "La password inserita è troppo corta",
+    "passwordIsToLong": "La password non deve superare i 50 caratteri",
+    "passwordFormat": "La password deve avere almeno 8 caratteri, maiuscola, minuscola, numero e un carattere speciale [#$%&_-*+@]"
+  }
+  }
+}

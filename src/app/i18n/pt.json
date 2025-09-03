@@ -1,0 +1,51 @@
+{
+  "homePage": {
+    "title": "Olá, punchuque"
+  },
+  "loginPage": {
+    "loginForm": {
+      "loginTitle": "bem-vindo de novo",
+      "loginSubTitle": "Insira as suas credenciais para iniciar sessão",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Senha",
+      "signInButton": "Iniciar sessão",
+      "continueWithText": "OU CONTINUAR COM",
+      "SignInWithGoogleButton": "Continuar com o Google",
+      "createAccountAnchor": "Não tem uma conta? Registe-se",
+      "loadingLogin":"Fazendo registro..."
+    },
+     "loginErrors":{
+      "emailRequired":"El email es requerido",
+      "emailIsInvalid":"El email ingresado es invalido",
+      "emailIsToLong":"El email no debe superar los 80 caracteres",
+      "passwordIsShort":"La Contraseña ingresada es demasiado corta",
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+    }
+  },
+  "registerPage": {
+    "registerForm": {
+      "registerTitle": "bem-vindo",
+      "registerSubTitle": "Insira as suas credenciais para se registar",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Senha",
+      "signUpButton": "Registrar-se",
+      "logInAnchor": "Tem uma conta? Iniciar sessão",
+      "loadingRegister":"Fazendo registro..."
+    },
+    "registerErrors": {
+    "firstNameIsRequired": "O nome é obrigatório",
+    "firstNameIsShort": "O nome deve conter pelo menos 5 caracteres",
+    "firstNameToLong": "O nome não deve exceder 45 caracteres",
+    "lastNameIsRequired": "O sobrenome é obrigatório",
+    "lastNameIsShort": "O sobrenome deve conter pelo menos 5 caracteres",
+    "lastNameToLong": "O sobrenome não deve exceder 45 caracteres",
+    "emailRequired": "O email é obrigatório",
+    "emailIsInvalid": "O email informado é inválido",
+    "emailIsToLong": "O email não deve exceder 80 caracteres",
+    "passwordRequired": "A senha é obrigatória",
+    "passwordIsShort": "A senha informada é muito curta",
+    "passwordIsToLong": "A senha não deve exceder 50 caracteres",
+    "passwordFormat": "A senha deve ter 8+ caracteres, maiúscula, minúscula, número e caractere especial [#$%&_-*+@]"
+  }
+  }
+}
