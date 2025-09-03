@@ -1,0 +1,51 @@
+{
+  "homePage": {
+    "title": "Hola panchuque"
+  },
+  "loginPage": {
+    "loginForm": {
+      "loginTitle": "Bienvenido de nuevo",
+      "loginSubTitle": "ingrese sus credenciales para inciar sesión",
+      "emailLabel": "Correo electrónico",
+      "passwordLabel": "Contraseña",
+      "signInButton": "Iniciar sesion",
+      "continueWithText": "O CONTINUAR CON",
+      "SignInWithGoogleButton": "Continuar con Google",
+      "createAccountAnchor": "¿No tiene una cuenta? Registrate",
+      "loadingLogin":"Iniciando sesión..."
+    },
+    "loginErrors":{
+      "emailRequired":"El email es requerido",
+      "emailIsInvalid":"El email ingresado es invalido",
+      "emailIsToLong":"El email no debe superar los 80 caracteres",
+      "passwordIsShort":"La Contraseña ingresada es demasiado corta",
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+    }
+  },
+  "registerPage": {
+    "registerForm": {
+      "registerTitle": "Bienvenido",
+      "registerSubTitle": "Ingrese sus credenciales para registrarse",
+      "emailLabel": "Correo electrónico",
+      "passwordLabel": "Contraseña",
+      "signUpButton": "Registrarse",
+      "logInAnchor": "¿Tiene una cuenta? iniciar sesion",
+      "loadingRegister":"Realizando registro..."
+    },
+    "registerErrors": {
+    "firstNameIsRequired": "El nombre es requerido",
+    "firstNameIsShort": "El nombre debe contener al menos 5 caracteres",
+    "firstNameToLong": "El nombre debe contener 45 caracteres máximo",
+    "lastNameIsRequired": "El apellido es requerido",
+    "lastNameIsShort": "El apellido debe contener al menos 5 caracteres",
+    "lastNameToLong": "El apellido debe contener 45 caracteres máximo",
+    "emailRequired": "El email es requerido",
+    "emailIsInvalid": "El email ingresado es inválido",
+    "emailIsToLong": "El email no debe superar los 80 caracteres",
+    "passwordRequired": "La contraseña es requerida",
+    "passwordIsShort": "La contraseña ingresada es demasiado corta",
+    "passwordIsToLong": "La contraseña no debe superar los 50 caracteres",
+    "passwordFormat": "La contraseña debe tener 8+ caracteres, mayúscula, minúscula, número y un carácter especial [#$%&_-*+@]"
+  }
+  }
+}
