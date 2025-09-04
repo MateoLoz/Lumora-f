@@ -28,9 +28,9 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: "en" | "es" };
+  params: { lang: "en" | "es" | "fr" | "br" | "de" | "it" | "pt" };
 }>) {
-  const lang = (await params).lang;
+  const lang = (params).lang;
   return (
     <html lang={lang} data-theme="light-1" suppressHydrationWarning>
       <head>
