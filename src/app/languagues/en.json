@@ -1,0 +1,9 @@
+{
+  "login.title": "Login your account",
+  "login.subtitle": "enter your email below to login your account",
+  "login.asidetitle": "Sign Up",
+  "login.email": "Email",
+  "login.password": "Password",
+  "login.button": "Login",
+  "login.secondarybutton": "Login with Google"
+}

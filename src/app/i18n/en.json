@@ -1,0 +1,51 @@
+{
+  "homePage": {
+    "title": "Hello panchuque"
+  },
+  "loginPage": {
+    "loginForm": {
+      "loginTitle": "Welcome Back",
+      "loginSubTitle": "Enter your credentials to sign in",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "signInButton": "Sign In",
+      "continueWithText": "OR CONTINUE WITH",
+      "SignInWithGoogleButton": "Continue with Google",
+      "createAccountAnchor": "Dont have an account? Sign Up",
+      "loadingLogin":"Signing in..."
+    },
+     "loginErrors":{
+      "emailRequired":"El email es requerido",
+      "emailIsInvalid":"El email ingresado es invalido",
+      "emailIsToLong":"El email no debe superar los 80 caracteres",
+      "passwordIsShort":"La Contraseña ingresada es demasiado corta",
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+    }
+  },
+  "registerPage": {
+    "registerForm": {
+      "registerTitle": "Welcome",
+      "registerSubTitle": "Enter your credentials to sign Up",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "signUpButton": "Sign Up",
+      "logInAnchor": "Have an account? Sign In",
+      "loadingRegister":"Registering..."
+    },
+    "registerErrors": {
+    "firstNameIsRequired": "First name is required",
+    "firstNameIsShort": "First name must be at least 5 characters",
+    "firstNameToLong": "First name must be at most 45 characters",
+    "lastNameIsRequired": "Last name is required",
+    "lastNameIsShort": "Last name must be at least 5 characters",
+    "lastNameToLong": "Last name must be at most 45 characters",
+    "emailRequired": "Email is required",
+    "emailIsInvalid": "The email entered is invalid",
+    "emailIsToLong": "Email must not exceed 80 characters",
+    "passwordRequired": "Password is required",
+    "passwordIsShort": "The password entered is too short",
+    "passwordIsToLong": "Password must not exceed 50 characters",
+    "passwordFormat": "Password must have 8+ characters, uppercase, lowercase, number, and special character [#$%&_-*+@]"
+  }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "homePage": {
+    "title": "Bonjour Panchuque"
+  },
+  "loginPage": {
+    "loginForm": {
+      "loginTitle": "Bon retour",
+      "loginSubTitle": "Entrez vos identifiants pour vous connecter",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Mot de passe",
+      "signInButton": "Se connecter",
+      "continueWithText": "OU CONTINUER AVEC",
+      "SignInWithGoogleButton": "Continuer avec Google",
+      "createAccountAnchor": "Pas de compte ? Inscrivez-vous",
+      "loadingLogin":"Connexion en cours..."
+    },
+     "loginErrors":{
+      "emailRequired":"El email es requerido",
+      "emailIsInvalid":"El email ingresado es invalido",
+      "emailIsToLong":"El email no debe superar los 80 caracteres",
+      "passwordIsShort":"La Contraseña ingresada es demasiado corta",
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+    }
+  },
+  "registerPage": {
+    "registerForm": {
+      "registerTitle": "Bienvenue",
+      "registerSubTitle": "Entrez vos identifiants pour vous inscrire",
+      "emailLabel": "E-mail",
+      "passwordLabel": "Mot de passe",
+      "signUpButton": "S'inscrire",
+      "logInAnchor": "Vous avez déjà un compte ? Connectez-vous",
+      "loadingRegister":"Enregistrement en cours..."
+    },
+     "registerErrors": {
+    "firstNameIsRequired": "Le prénom est requis",
+    "firstNameIsShort": "Le prénom doit contenir au moins 5 caractères",
+    "firstNameToLong": "Le prénom doit contenir au maximum 45 caractères",
+    "lastNameIsRequired": "Le nom de famille est requis",
+    "lastNameIsShort": "Le nom de famille doit contenir au moins 5 caractères",
+    "lastNameToLong": "Le nom de famille doit contenir au maximum 45 caractères",
+    "emailRequired": "L'email est requis",
+    "emailIsInvalid": "L'email saisi est invalide",
+    "emailIsToLong": "L'email ne doit pas dépasser 80 caractères",
+    "passwordRequired": "Le mot de passe est requis",
+    "passwordIsShort": "Le mot de passe saisi est trop court",
+    "passwordIsToLong": "Le mot de passe ne doit pas dépasser 50 caractères",
+    "passwordFormat": "Le mot de passe doit contenir au moins 8 caractères, majuscule, minuscule, chiffre et caractère spécial [#$%&_-*+@]"
+  }
+  }
+}

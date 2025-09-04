@@ -1,0 +1,9 @@
+{
+  "login.title": "Iniciar sesión",
+  "login.subtitle": "ingresa tu email para iniciar sesion",
+  "login.asidetitle": "Crear cuenta",
+  "login.email": "Email",
+  "login.password": "Contraseña",
+  "login.button": "Iniciar sesion",
+  "login.secondarybutton": "Iniciar sesion con Google"
+}
