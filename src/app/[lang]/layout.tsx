@@ -30,7 +30,9 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: Promise<{ lang: "en" | "es" | "fr" | "br" | "de" | "it" | "pt" }>;
 }>) {
+  
   const lang =  (await params).lang;
+  
   return (
     <html lang={lang} data-theme="light-1" suppressHydrationWarning>
       <head>
