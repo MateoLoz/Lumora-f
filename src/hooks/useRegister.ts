@@ -1,12 +1,16 @@
+import { useRouter } from "next/navigation";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { RegisterTranslations } from "@/types/translations";
 import { createRegisterSchema } from "@/schemas/registerSchema";
 
-import { zodResolver } from "@hookform/resolvers/zod";
 import {z} from 'zod';
+import { zodResolver } from "@hookform/resolvers/zod";
+import axios from "axios";
+
 
 export function useRegister(registerPageDictionary:RegisterTranslations) {
-
+  
+const router = useRouter();
 const {registerErrors} = registerPageDictionary;
 
 const registerSchema = createRegisterSchema(registerErrors);
@@ -24,8 +28,8 @@ type FormFields = z.infer<typeof registerSchema>
   } = methods;
 
   const onSubmit: SubmitHandler<FormFields> = async (data) => {
-    await new Promise((resolve)=> setTimeout(resolve,1000));
-    console.log(data);
+     await axios.post('/api/user',data);
+    router.push("/auth/login");
   };
 
   return {
