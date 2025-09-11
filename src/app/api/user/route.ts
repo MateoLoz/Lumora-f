@@ -9,8 +9,8 @@ export async function POST(req: Request) {
 
     const response = await postUser(userDto); 
     return NextResponse.json(response, { status: 201 });
-  } catch (err: any) {
+  } catch (err) {
     console.error("Error en /api/user:", err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    return NextResponse.json({ error: err }, { status: 500 });
   }
 }
