@@ -9,7 +9,7 @@ import axios from "axios";
 
 
 export function useRegister(registerPageDictionary:RegisterTranslations) {
-  
+
 const router = useRouter();
 const {registerErrors} = registerPageDictionary;
 
@@ -29,7 +29,7 @@ type FormFields = z.infer<typeof registerSchema>
 
   const onSubmit: SubmitHandler<FormFields> = async (data) => {
      await axios.post('/api/user',data);
-    router.push("/auth/login");
+    router.push("login");
   };
 
   return {

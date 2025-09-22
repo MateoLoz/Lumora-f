@@ -16,6 +16,8 @@ export type LoginTranslations = {
       emailIsToLong:string;
       passwordIsShort:string;
       passwordIsToLong:string;
+      invalidCredentials: string; 
+      serverError: string;     
     };
 };
 

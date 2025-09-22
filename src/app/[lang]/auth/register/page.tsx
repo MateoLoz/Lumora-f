@@ -1,9 +1,7 @@
 import { getDictionary } from "@/app/i18n/dictionary";
 import { RegisterForm } from "@/components/auth/RegisterForm";
 
-export default async function Register({
-  params,
-}: {
+export default async function Register({params}: {
   params: Promise<{ lang: "en" | "es"| "br" | "pt" | "fr" | "de" | "it" }>;
 }) {
   const lang = (await params).lang;

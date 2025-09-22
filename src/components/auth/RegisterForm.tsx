@@ -26,10 +26,6 @@ export const RegisterForm = ({ lang }: RegisterProps) => {
           subtitle={lang.registerForm.registerSubTitle}
         />
         <CardContent className="space-y-4">
-          {/* <LoginFields
-            emailLabel={lang.registerForm.emailLabel}
-            passwordLabel={lang.registerForm.passwordLabel}
-          /> */}
           <RegisterFields
           emailLabel={lang.registerForm.emailLabel}
           passwordLabel={lang.registerForm.passwordLabel}

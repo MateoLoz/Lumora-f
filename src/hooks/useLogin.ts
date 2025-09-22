@@ -1,4 +1,4 @@
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useForm, SubmitHandler } from "react-hook-form";
 
 import { z } from "zod";
@@ -6,8 +6,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { LoginTranslations } from "@/types/translations";
 import axios from "axios";
 
+
 export default function useLogin(errorsMsj: LoginTranslations) {
   const router = useRouter();
+  const { lang } = useParams();
 
   const schema = z.object({
     email: z
@@ -33,12 +35,33 @@ export default function useLogin(errorsMsj: LoginTranslations) {
     register,
     handleSubmit,
     formState: { errors, isSubmitting },
+    reset,
+    setError
   } = methods;
 
   const onSubmit: SubmitHandler<FormFields> = async (data) => {
+  try {
     await axios.post("/api/login", data);
-    router.push("/dashboard");
-  };
+    router.push(`/${lang}/dashboard`);
+  } catch (err) {
+    if (axios.isAxiosError(err)) {
+      const status = err.response?.status;
+      reset();
+      if (status === 401) {
+        setError("email", { message: errorsMsj.loginErrors.invalidCredentials });
+        setError("password", { message: errorsMsj.loginErrors.invalidCredentials });
+      }
+
+      // error del servidor
+      if (status && status >= 500) {
+        setError("root", { message: errorsMsj.loginErrors.serverError });
+      }
+    } else {
+      setError("root", { message: "Unexpected error" });
+    }
+  }
+};
+
 
   return {
     errors,

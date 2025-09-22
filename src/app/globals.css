@@ -92,8 +92,8 @@ html, body {
 body {
   background-color: var(--bg);
   color: var(--fg);
-  /* background-image: radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)); */
-  /* background-size: var(--dot-space) var(--dot-space); */
+   background-image: radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)); 
+   background-size: var(--dot-space) var(--dot-space); 
 }
 
 /* ── Variantes LIGHT ────────────────────────────────────────── */

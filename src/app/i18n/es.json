@@ -19,7 +19,9 @@
       "emailIsInvalid":"El email ingresado es invalido",
       "emailIsToLong":"El email no debe superar los 80 caracteres",
       "passwordIsShort":"La Contraseña ingresada es demasiado corta",
-      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres"
+      "passwordIsToLong":"La contraseña no debe superar los 50 caracteres",
+      "invalidCredentials": "las credenciales son invalidas", 
+      "serverError": "error del servidor"     
     }
   },
   "registerPage": {
